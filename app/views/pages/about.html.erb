@@ -10,121 +10,85 @@ h1 {
     color: black;
     text-align: left;
     font-family: arial;
+    border:2px solid;
+    border-top-color: white;
+    border-left-color:white;
+    border-right-color:white;
+    border-bottom-color:red;
 }
-h3  {
-  font-family: arial;
-}
-h2{ 
-  font-family: arial;
-}
+
 p {
     font-family: arial;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 p1 {
-  font-family: arial;
+	font-family: arial;
     font-size: 20px;
 }
-a:link {
-    color: blue;
-}
-a:visited {
-    color: red;
-}
-a:hover {
-    color: hotpink;
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
-a:active {
-    color: blue;
+div.img:hover {
+    border: 1px solid #777;
 }
-u { 
-    text-decoration: underline;
-}
-table {
-    border-collapse: collapse;
+
+div.img img {
     width: 100%;
+    height: auto;
 }
 
-th, td {
-    text-align: left;
-    padding: 8px;
-}
+div.desc {
+    padding: 15px;
+    text-align: center;
 
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-    background-color: red;
-    color: white;
-}
 </style>
 </head>
 <body>
 
-<h1><strong>I would love to here from you!</strong></h1>
+<h1>Welcome to Yelping-it-up</h1>
+<p>Yelping-it-up is the new up and coming Yelp. Yelping-it-up is not only sleek and clean it's also very useful to find the best restaurants around town!</p>
 
-<p>For more about me and what I am doing visit my <a href="https://sites.google.com/site/jeremiahparrack/home">site</a>.</p>
-<p>Contact me at <a href="mailto:jeremiahlukus1@gmail.com">here</a></p>
-<h4>Message from: Jeremiah - Team Leader</h4>
-<hr />
+<p>With Yelping-it-up you are able to make a more informed choices and tell people about your experiences!</p>
 
-<ul>
+<p>With this community driven site you are able to get different views on places you might have never known about!</p>
 
-</ul>
-<h2>Our team leader Jeremiah has been the driving force in developing this site in a clear and concise way with the help of our developmental team: Aqsa, Carlos, Tobi, Asadud, and John to help an create a great enviroment for its community! Check out these people!</h2>
+<p>Now why don't you look at some pictures of some delicious food to get you hungry!</p>
 
-<h1><u>Developmental Team</u></h2>
+<div class="img">
+  <a target="_blank" href="http://i.imgur.com/t6xM9fV.jpg">
+    <img src="http://i.imgur.com/t6xM9fV.jpg" alt="Pizza" width="300" height="200">
+  </a>
+  <div class="desc">Who doesn't love pizza!</div>
+</div>
 
-<table>
-  <tr>
-    <th><h3>Title</h3></th>
-    <th><h3>Name</h3></th>
-    <th><h3>Email</h3></th>
-    <th><h3>Website</h3></th>
-  </tr>
-  <tr>
-    <td><p1><strong>Team Leader and Main Coder/Developer:</strong></p1></td>
-    <td><h3>Jeremiah</h3></td>
-    <td><p><a href="mailto:jeremiahlukus1@gmail.com">Email</a></p></td>
-    <td><p><a href="https://sites.google.com/site/jeremiahparrack/home">Reach me at this site!</a></p></td>
-  </tr>
-  <tr>
-     <td><p1><strong>Title</strong></p1></td>
-    <td><h3>Aqsa</h3></td>
-    <td><p><a href="mailto:arouf1@student.gsu.edu">Email</a></p></td>
-    <td><p><a href="www.google.com">Reach me at this site!</a></p></td>
-  </tr>
-  <tr>
-    <td><p1><strong>Title</strong></p1></td>
-    <td><h3>Tobi</h3></td>
-    <td><p><a href="mailto:arouf1@student.gsu.edu">Email</a></p></td>
-    <td><p><a href="www.google.com">Reach me at this site!</a></p></td>
-  </tr>
-  <tr>
-    <td><p1><strong>Documenter I / Designer I</strong></p1></td>
-    <td><h3>Asadud Rouf</h3></td>
-    <td><p><a href="mailto:arouf1@student.gsu.edu">Email</a></p></td>
-    <td><p><a href="https://sites.google.com/view/asadudrouf424">Reach me at this site!</a></p></td>
-</tr>
-<tr>
-  <td><p1><strong>Title</strong></p1></td>
-    <td><h3>Carlos</h3></td>
-    <td><p><a href="mailto:ulycarlos@gmail.com">Email</a></p></td>
-    <td><p><a href="https://sites.google.com/site/ulyssescarlos1/">Reach me at this site!</a></p>
-</td>
-</tr>
+<div class="img">
+  <a target="_blank" href="http://i.imgur.com/Kj4l553.jpg">
+    <img src="http://i.imgur.com/Kj4l553.jpg" alt="Sandwhich" width="300" height="200">
+  </a>
+  <div class="desc">Cheesy!</div>
+</div>
 
-<tr>
-  <td><p1><strong>Title</strong></p1></td>
-    <td><h3>John</h3></td>
-    <td><p><a href="mailto:arouf1@student.gsu.edu">Email</a></p></td>
-  <td><p><a href="https://sites.google.com/site/johngraberssite">Reach me at this site!</a></p></td>
+<div class="img">
+  <a target="_blank" href="http://i.imgur.com/kswgKG5.jpg">
+    <img src="http://i.imgur.com/kswgKG5.jpg" alt="Desert" width="300" height="200">
+  </a>
+  <div class="desc">Mhmmm!</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="http://i.imgur.com/SVhcZxN.jpg">
+    <img src="http://i.imgur.com/SVhcZxN.jpg" alt="Bacon" width="300" height="200">
+  </a>
+  <div class="desc">Bacon!</div>
+</div>
 
 
-</tr>
-
-</table>
 
 </body>
 </html>
